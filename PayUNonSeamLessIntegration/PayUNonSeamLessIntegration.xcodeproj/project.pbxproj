@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A696F8161EB73C1A00937DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8151EB73C1A00937DE1 /* main.m */; };
+		A696F8191EB73C1A00937DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8181EB73C1A00937DE1 /* AppDelegate.m */; };
+		A696F81C1EB73C1A00937DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F81B1EB73C1A00937DE1 /* ViewController.m */; };
+		A696F81F1EB73C1A00937DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A696F81D1EB73C1A00937DE1 /* Main.storyboard */; };
+		A696F8211EB73C1A00937DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A696F8201EB73C1A00937DE1 /* Assets.xcassets */; };
+		A696F8241EB73C1A00937DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A696F8221EB73C1A00937DE1 /* LaunchScreen.storyboard */; };
+		A696F82F1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F82E1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.m */; };
+		A696F8B11EB73DC300937DE1 /* PayUCBInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = A696F8401EB73DC300937DE1 /* PayUCBInfo.plist */; };
+		A696F8B21EB73DC300937DE1 /* PUCBAllPaymentOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F8421EB73DC300937DE1 /* PUCBAllPaymentOption.xib */; };
+		A696F8B31EB73DC300937DE1 /* PUCBApproveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F8431EB73DC300937DE1 /* PUCBApproveView.xib */; };
+		A696F8B41EB73DC300937DE1 /* PUCBBankPageLoading.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F8441EB73DC300937DE1 /* PUCBBankPageLoading.xib */; };
+		A696F8B51EB73DC300937DE1 /* PUCBFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F8471EB73DC300937DE1 /* PUCBFooterView.xib */; };
+		A696F8B61EB73DC300937DE1 /* PUCBHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F8481EB73DC300937DE1 /* PUCBHeaderView.xib */; };
+		A696F8B71EB73DC300937DE1 /* PUCBImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A696F8491EB73DC300937DE1 /* PUCBImages.xcassets */; };
+		A696F8B81EB73DC300937DE1 /* PUCBLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F84A1EB73DC300937DE1 /* PUCBLoader.xib */; };
+		A696F8B91EB73DC300937DE1 /* PUCBPassowrdWithIncorrectOTPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F84B1EB73DC300937DE1 /* PUCBPassowrdWithIncorrectOTPView.xib */; };
+		A696F8BA1EB73DC300937DE1 /* PUCBPasswordNB.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F84C1EB73DC300937DE1 /* PUCBPasswordNB.xib */; };
+		A696F8BB1EB73DC300937DE1 /* PUCBRegenerateOTPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F84D1EB73DC300937DE1 /* PUCBRegenerateOTPView.xib */; };
+		A696F8BC1EB73DC300937DE1 /* PUCBRegisterOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F84E1EB73DC300937DE1 /* PUCBRegisterOption.xib */; };
+		A696F8BD1EB73DC300937DE1 /* PUCBUserIdNB.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F84F1EB73DC300937DE1 /* PUCBUserIdNB.xib */; };
+		A696F8BE1EB73DC300937DE1 /* PUCBWKTest.html in Resources */ = {isa = PBXBuildFile; fileRef = A696F8511EB73DC300937DE1 /* PUCBWKTest.html */; };
+		A696F8BF1EB73DC300937DE1 /* libiOSCustomBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A696F8521EB73DC300937DE1 /* libiOSCustomBrowser.a */; };
+		A696F8C01EB73DC300937DE1 /* libPayU_iOS_CoreSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A696F8541EB73DC300937DE1 /* libPayU_iOS_CoreSDK.a */; };
+		A696F8C11EB73DC300937DE1 /* PayUSDKInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = A696F86C1EB73DC300937DE1 /* PayUSDKInfo.plist */; };
+		A696F8C21EB73DC300937DE1 /* iOSDefaultActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8761EB73DC300937DE1 /* iOSDefaultActivityIndicator.m */; };
+		A696F8C31EB73DC300937DE1 /* PUUIEMITopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8791EB73DC300937DE1 /* PUUIEMITopView.m */; };
+		A696F8C41EB73DC300937DE1 /* PUUIEMITopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F87A1EB73DC300937DE1 /* PUUIEMITopView.xib */; };
+		A696F8C51EB73DC300937DE1 /* PUUINBTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F87C1EB73DC300937DE1 /* PUUINBTopView.m */; };
+		A696F8C61EB73DC300937DE1 /* PUUIStoredCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F87E1EB73DC300937DE1 /* PUUIStoredCardView.m */; };
+		A696F8C71EB73DC300937DE1 /* PUUIStoredCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F87F1EB73DC300937DE1 /* PUUIStoredCardView.xib */; };
+		A696F8C81EB73DC300937DE1 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8841EB73DC300937DE1 /* iCarousel.m */; };
+		A696F8C91EB73DC300937DE1 /* PUUIBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8881EB73DC300937DE1 /* PUUIBaseVC.m */; };
+		A696F8CA1EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F88A1EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.m */; };
+		A696F8CB1EB73DC300937DE1 /* PUUICardOptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F88C1EB73DC300937DE1 /* PUUICardOptionVC.m */; };
+		A696F8CC1EB73DC300937DE1 /* PUUICCDCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F88E1EB73DC300937DE1 /* PUUICCDCVC.m */; };
+		A696F8CD1EB73DC300937DE1 /* PUUINBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8901EB73DC300937DE1 /* PUUINBVC.m */; };
+		A696F8CE1EB73DC300937DE1 /* PUUIPaymentOptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8921EB73DC300937DE1 /* PUUIPaymentOptionVC.m */; };
+		A696F8CF1EB73DC300937DE1 /* PUUIPayUMoneyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8941EB73DC300937DE1 /* PUUIPayUMoneyVC.m */; };
+		A696F8D01EB73DC300937DE1 /* PUUIStoredCardCarouselVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8961EB73DC300937DE1 /* PUUIStoredCardCarouselVC.m */; };
+		A696F8D11EB73DC300937DE1 /* PUUITabBarTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8981EB73DC300937DE1 /* PUUITabBarTopView.m */; };
+		A696F8D21EB73DC300937DE1 /* PUUITabBarTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A696F8991EB73DC300937DE1 /* PUUITabBarTopView.xib */; };
+		A696F8D31EB73DC300937DE1 /* PUUIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F89B1EB73DC300937DE1 /* PUUIWebViewVC.m */; };
+		A696F8D41EB73DC300937DE1 /* PUUIAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A696F89C1EB73DC300937DE1 /* PUUIAssets.xcassets */; };
+		A696F8D51EB73DC300937DE1 /* PUUIMainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A696F89F1EB73DC300937DE1 /* PUUIMainStoryBoard.storyboard */; };
+		A696F8D61EB73DC300937DE1 /* KHTabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8A31EB73DC300937DE1 /* KHTabPagerViewController.m */; };
+		A696F8D71EB73DC300937DE1 /* KHTabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8A51EB73DC300937DE1 /* KHTabScrollView.m */; };
+		A696F8D81EB73DC300937DE1 /* PUUIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8A71EB73DC300937DE1 /* PUUIConstants.m */; };
+		A696F8D91EB73DC300937DE1 /* PUUIImageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8A91EB73DC300937DE1 /* PUUIImageConstants.m */; };
+		A696F8DA1EB73DC300937DE1 /* PUUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8AB1EB73DC300937DE1 /* PUUIUtility.m */; };
+		A696F8DB1EB73DC300937DE1 /* PUUIReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8AE1EB73DC300937DE1 /* PUUIReachability.m */; };
+		A696F8DC1EB73DC300937DE1 /* UIColor+PUUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A696F8B01EB73DC300937DE1 /* UIColor+PUUIColor.m */; };
+		A696F8DF1EB73DDB00937DE1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A696F8DE1EB73DDB00937DE1 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A696F82B1EB73C1A00937DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A696F8091EB73C1A00937DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A696F8101EB73C1A00937DE1;
+			remoteInfo = PayUNonSeamLessIntegration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A696F8111EB73C1A00937DE1 /* PayUNonSeamLessIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUNonSeamLessIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696F8151EB73C1A00937DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A696F8171EB73C1A00937DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A696F8181EB73C1A00937DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A696F81A1EB73C1A00937DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A696F81B1EB73C1A00937DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A696F81E1EB73C1A00937DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A696F8201EB73C1A00937DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A696F8231EB73C1A00937DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A696F8251EB73C1A00937DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A696F82A1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUNonSeamLessIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696F82E1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayUNonSeamLessIntegrationTests.m; sourceTree = "<group>"; };
+		A696F8301EB73C1A00937DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A696F83C1EB73DC300937DE1 /* CBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBConnection.h; sourceTree = "<group>"; };
+		A696F83D1EB73DC300937DE1 /* CBConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBConstant.h; sourceTree = "<group>"; };
+		A696F83E1EB73DC300937DE1 /* CBWKConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWKConnection.h; sourceTree = "<group>"; };
+		A696F83F1EB73DC300937DE1 /* PayU_CB_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayU_CB_SDK.h; sourceTree = "<group>"; };
+		A696F8401EB73DC300937DE1 /* PayUCBInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PayUCBInfo.plist; sourceTree = "<group>"; };
+		A696F8411EB73DC300937DE1 /* PayUCBWebViewResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUCBWebViewResponseDelegate.h; sourceTree = "<group>"; };
+		A696F8421EB73DC300937DE1 /* PUCBAllPaymentOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBAllPaymentOption.xib; sourceTree = "<group>"; };
+		A696F8431EB73DC300937DE1 /* PUCBApproveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBApproveView.xib; sourceTree = "<group>"; };
+		A696F8441EB73DC300937DE1 /* PUCBBankPageLoading.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBBankPageLoading.xib; sourceTree = "<group>"; };
+		A696F8451EB73DC300937DE1 /* PUCBBaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUCBBaseConnection.h; sourceTree = "<group>"; };
+		A696F8461EB73DC300937DE1 /* PUCBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUCBConfiguration.h; sourceTree = "<group>"; };
+		A696F8471EB73DC300937DE1 /* PUCBFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBFooterView.xib; sourceTree = "<group>"; };
+		A696F8481EB73DC300937DE1 /* PUCBHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBHeaderView.xib; sourceTree = "<group>"; };
+		A696F8491EB73DC300937DE1 /* PUCBImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PUCBImages.xcassets; sourceTree = "<group>"; };
+		A696F84A1EB73DC300937DE1 /* PUCBLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBLoader.xib; sourceTree = "<group>"; };
+		A696F84B1EB73DC300937DE1 /* PUCBPassowrdWithIncorrectOTPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBPassowrdWithIncorrectOTPView.xib; sourceTree = "<group>"; };
+		A696F84C1EB73DC300937DE1 /* PUCBPasswordNB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBPasswordNB.xib; sourceTree = "<group>"; };
+		A696F84D1EB73DC300937DE1 /* PUCBRegenerateOTPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBRegenerateOTPView.xib; sourceTree = "<group>"; };
+		A696F84E1EB73DC300937DE1 /* PUCBRegisterOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBRegisterOption.xib; sourceTree = "<group>"; };
+		A696F84F1EB73DC300937DE1 /* PUCBUserIdNB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBUserIdNB.xib; sourceTree = "<group>"; };
+		A696F8501EB73DC300937DE1 /* PUCBWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUCBWebVC.h; sourceTree = "<group>"; };
+		A696F8511EB73DC300937DE1 /* PUCBWKTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PUCBWKTest.html; sourceTree = "<group>"; };
+		A696F8521EB73DC300937DE1 /* libiOSCustomBrowser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiOSCustomBrowser.a; sourceTree = "<group>"; };
+		A696F8541EB73DC300937DE1 /* libPayU_iOS_CoreSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayU_iOS_CoreSDK.a; sourceTree = "<group>"; };
+		A696F8561EB73DC300937DE1 /* CoreTelephony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTelephony.h; sourceTree = "<group>"; };
+		A696F8571EB73DC300937DE1 /* PayU_iOS_CoreSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayU_iOS_CoreSDK.h; sourceTree = "<group>"; };
+		A696F8581EB73DC300937DE1 /* PayUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUConstants.h; sourceTree = "<group>"; };
+		A696F8591EB73DC300937DE1 /* PayUCreatePostParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUCreatePostParam.h; sourceTree = "<group>"; };
+		A696F85A1EB73DC300937DE1 /* PayUCreateRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUCreateRequest.h; sourceTree = "<group>"; };
+		A696F85B1EB73DC300937DE1 /* PayUDontUseThisClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUDontUseThisClass.h; sourceTree = "<group>"; };
+		A696F85C1EB73DC300937DE1 /* PayUFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUFileManager.h; sourceTree = "<group>"; };
+		A696F85D1EB73DC300937DE1 /* PayUJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUJSONParser.h; sourceTree = "<group>"; };
+		A696F85E1EB73DC300937DE1 /* PayUModelCashCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelCashCard.h; sourceTree = "<group>"; };
+		A696F85F1EB73DC300937DE1 /* PayUModelCheckIsDomestic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelCheckIsDomestic.h; sourceTree = "<group>"; };
+		A696F8601EB73DC300937DE1 /* PayUModelEMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelEMI.h; sourceTree = "<group>"; };
+		A696F8611EB73DC300937DE1 /* PayUModelEMIDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelEMIDetails.h; sourceTree = "<group>"; };
+		A696F8621EB73DC300937DE1 /* PayUModelGetTxnInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelGetTxnInfo.h; sourceTree = "<group>"; };
+		A696F8631EB73DC300937DE1 /* PayUModelHashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelHashes.h; sourceTree = "<group>"; };
+		A696F8641EB73DC300937DE1 /* PayUModelNetBanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelNetBanking.h; sourceTree = "<group>"; };
+		A696F8651EB73DC300937DE1 /* PayUModelOfferDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelOfferDetails.h; sourceTree = "<group>"; };
+		A696F8661EB73DC300937DE1 /* PayUModelOfferStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelOfferStatus.h; sourceTree = "<group>"; };
+		A696F8671EB73DC300937DE1 /* PayUModelPaymentParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelPaymentParams.h; sourceTree = "<group>"; };
+		A696F8681EB73DC300937DE1 /* PayUModelPaymentRelatedDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelPaymentRelatedDetail.h; sourceTree = "<group>"; };
+		A696F8691EB73DC300937DE1 /* PayUModelStoredCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelStoredCard.h; sourceTree = "<group>"; };
+		A696F86A1EB73DC300937DE1 /* PayUModelVerifyPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelVerifyPayment.h; sourceTree = "<group>"; };
+		A696F86B1EB73DC300937DE1 /* PayUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUReachability.h; sourceTree = "<group>"; };
+		A696F86C1EB73DC300937DE1 /* PayUSDKInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PayUSDKInfo.plist; sourceTree = "<group>"; };
+		A696F86D1EB73DC300937DE1 /* PayUSharedDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUSharedDataManager.h; sourceTree = "<group>"; };
+		A696F86E1EB73DC300937DE1 /* PayUUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUUtils.h; sourceTree = "<group>"; };
+		A696F86F1EB73DC300937DE1 /* PayUValidations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUValidations.h; sourceTree = "<group>"; };
+		A696F8701EB73DC300937DE1 /* PayUWebServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWebServiceResponse.h; sourceTree = "<group>"; };
+		A696F8711EB73DC300937DE1 /* PayUWebViewResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWebViewResponse.h; sourceTree = "<group>"; };
+		A696F8721EB73DC300937DE1 /* PayUWSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWSManager.h; sourceTree = "<group>"; };
+		A696F8751EB73DC300937DE1 /* iOSDefaultActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSDefaultActivityIndicator.h; sourceTree = "<group>"; };
+		A696F8761EB73DC300937DE1 /* iOSDefaultActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSDefaultActivityIndicator.m; sourceTree = "<group>"; };
+		A696F8781EB73DC300937DE1 /* PUUIEMITopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIEMITopView.h; sourceTree = "<group>"; };
+		A696F8791EB73DC300937DE1 /* PUUIEMITopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIEMITopView.m; sourceTree = "<group>"; };
+		A696F87A1EB73DC300937DE1 /* PUUIEMITopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUUIEMITopView.xib; sourceTree = "<group>"; };
+		A696F87B1EB73DC300937DE1 /* PUUINBTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUINBTopView.h; sourceTree = "<group>"; };
+		A696F87C1EB73DC300937DE1 /* PUUINBTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUINBTopView.m; sourceTree = "<group>"; };
+		A696F87D1EB73DC300937DE1 /* PUUIStoredCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIStoredCardView.h; sourceTree = "<group>"; };
+		A696F87E1EB73DC300937DE1 /* PUUIStoredCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIStoredCardView.m; sourceTree = "<group>"; };
+		A696F87F1EB73DC300937DE1 /* PUUIStoredCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUUIStoredCardView.xib; sourceTree = "<group>"; };
+		A696F8831EB73DC300937DE1 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		A696F8841EB73DC300937DE1 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		A696F8871EB73DC300937DE1 /* PUUIBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIBaseVC.h; sourceTree = "<group>"; };
+		A696F8881EB73DC300937DE1 /* PUUIBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIBaseVC.m; sourceTree = "<group>"; };
+		A696F8891EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIWrapperKHTabPagerVC.h; sourceTree = "<group>"; };
+		A696F88A1EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIWrapperKHTabPagerVC.m; sourceTree = "<group>"; };
+		A696F88B1EB73DC300937DE1 /* PUUICardOptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUICardOptionVC.h; sourceTree = "<group>"; };
+		A696F88C1EB73DC300937DE1 /* PUUICardOptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUICardOptionVC.m; sourceTree = "<group>"; };
+		A696F88D1EB73DC300937DE1 /* PUUICCDCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUICCDCVC.h; sourceTree = "<group>"; };
+		A696F88E1EB73DC300937DE1 /* PUUICCDCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUICCDCVC.m; sourceTree = "<group>"; };
+		A696F88F1EB73DC300937DE1 /* PUUINBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUINBVC.h; sourceTree = "<group>"; };
+		A696F8901EB73DC300937DE1 /* PUUINBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUINBVC.m; sourceTree = "<group>"; };
+		A696F8911EB73DC300937DE1 /* PUUIPaymentOptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIPaymentOptionVC.h; sourceTree = "<group>"; };
+		A696F8921EB73DC300937DE1 /* PUUIPaymentOptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIPaymentOptionVC.m; sourceTree = "<group>"; };
+		A696F8931EB73DC300937DE1 /* PUUIPayUMoneyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIPayUMoneyVC.h; sourceTree = "<group>"; };
+		A696F8941EB73DC300937DE1 /* PUUIPayUMoneyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIPayUMoneyVC.m; sourceTree = "<group>"; };
+		A696F8951EB73DC300937DE1 /* PUUIStoredCardCarouselVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIStoredCardCarouselVC.h; sourceTree = "<group>"; };
+		A696F8961EB73DC300937DE1 /* PUUIStoredCardCarouselVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIStoredCardCarouselVC.m; sourceTree = "<group>"; };
+		A696F8971EB73DC300937DE1 /* PUUITabBarTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUITabBarTopView.h; sourceTree = "<group>"; };
+		A696F8981EB73DC300937DE1 /* PUUITabBarTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUITabBarTopView.m; sourceTree = "<group>"; };
+		A696F8991EB73DC300937DE1 /* PUUITabBarTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUUITabBarTopView.xib; sourceTree = "<group>"; };
+		A696F89A1EB73DC300937DE1 /* PUUIWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIWebViewVC.h; sourceTree = "<group>"; };
+		A696F89B1EB73DC300937DE1 /* PUUIWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIWebViewVC.m; sourceTree = "<group>"; };
+		A696F89C1EB73DC300937DE1 /* PUUIAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PUUIAssets.xcassets; sourceTree = "<group>"; };
+		A696F89F1EB73DC300937DE1 /* PUUIMainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PUUIMainStoryBoard.storyboard; sourceTree = "<group>"; };
+		A696F8A21EB73DC300937DE1 /* KHTabPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTabPagerViewController.h; sourceTree = "<group>"; };
+		A696F8A31EB73DC300937DE1 /* KHTabPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTabPagerViewController.m; sourceTree = "<group>"; };
+		A696F8A41EB73DC300937DE1 /* KHTabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTabScrollView.h; sourceTree = "<group>"; };
+		A696F8A51EB73DC300937DE1 /* KHTabScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTabScrollView.m; sourceTree = "<group>"; };
+		A696F8A61EB73DC300937DE1 /* PUUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIConstants.h; sourceTree = "<group>"; };
+		A696F8A71EB73DC300937DE1 /* PUUIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIConstants.m; sourceTree = "<group>"; };
+		A696F8A81EB73DC300937DE1 /* PUUIImageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIImageConstants.h; sourceTree = "<group>"; };
+		A696F8A91EB73DC300937DE1 /* PUUIImageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIImageConstants.m; sourceTree = "<group>"; };
+		A696F8AA1EB73DC300937DE1 /* PUUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIUtility.h; sourceTree = "<group>"; };
+		A696F8AB1EB73DC300937DE1 /* PUUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIUtility.m; sourceTree = "<group>"; };
+		A696F8AD1EB73DC300937DE1 /* PUUIReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIReachability.h; sourceTree = "<group>"; };
+		A696F8AE1EB73DC300937DE1 /* PUUIReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIReachability.m; sourceTree = "<group>"; };
+		A696F8AF1EB73DC300937DE1 /* UIColor+PUUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PUUIColor.h"; sourceTree = "<group>"; };
+		A696F8B01EB73DC300937DE1 /* UIColor+PUUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PUUIColor.m"; sourceTree = "<group>"; };
+		A696F8DE1EB73DDB00937DE1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A696F80E1EB73C1A00937DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8DF1EB73DDB00937DE1 /* libz.tbd in Frameworks */,
+				A696F8C01EB73DC300937DE1 /* libPayU_iOS_CoreSDK.a in Frameworks */,
+				A696F8BF1EB73DC300937DE1 /* libiOSCustomBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8271EB73C1A00937DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A696F8081EB73C1A00937DE1 = {
+			isa = PBXGroup;
+			children = (
+				A696F8131EB73C1A00937DE1 /* PayUNonSeamLessIntegration */,
+				A696F82D1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests */,
+				A696F8121EB73C1A00937DE1 /* Products */,
+				A696F8DD1EB73DDB00937DE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A696F8121EB73C1A00937DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8111EB73C1A00937DE1 /* PayUNonSeamLessIntegration.app */,
+				A696F82A1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A696F8131EB73C1A00937DE1 /* PayUNonSeamLessIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8391EB73DC300937DE1 /* PayU */,
+				A696F8171EB73C1A00937DE1 /* AppDelegate.h */,
+				A696F8181EB73C1A00937DE1 /* AppDelegate.m */,
+				A696F81A1EB73C1A00937DE1 /* ViewController.h */,
+				A696F81B1EB73C1A00937DE1 /* ViewController.m */,
+				A696F81D1EB73C1A00937DE1 /* Main.storyboard */,
+				A696F8201EB73C1A00937DE1 /* Assets.xcassets */,
+				A696F8221EB73C1A00937DE1 /* LaunchScreen.storyboard */,
+				A696F8251EB73C1A00937DE1 /* Info.plist */,
+				A696F8141EB73C1A00937DE1 /* Supporting Files */,
+			);
+			path = PayUNonSeamLessIntegration;
+			sourceTree = "<group>";
+		};
+		A696F8141EB73C1A00937DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8151EB73C1A00937DE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A696F82D1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A696F82E1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.m */,
+				A696F8301EB73C1A00937DE1 /* Info.plist */,
+			);
+			path = PayUNonSeamLessIntegrationTests;
+			sourceTree = "<group>";
+		};
+		A696F8391EB73DC300937DE1 /* PayU */ = {
+			isa = PBXGroup;
+			children = (
+				A696F83A1EB73DC300937DE1 /* CB */,
+				A696F8531EB73DC300937DE1 /* SDK */,
+				A696F8731EB73DC300937DE1 /* SDKUI */,
+			);
+			path = PayU;
+			sourceTree = "<group>";
+		};
+		A696F83A1EB73DC300937DE1 /* CB */ = {
+			isa = PBXGroup;
+			children = (
+				A696F83B1EB73DC300937DE1 /* iOSCustomBrowser */,
+				A696F8521EB73DC300937DE1 /* libiOSCustomBrowser.a */,
+			);
+			path = CB;
+			sourceTree = "<group>";
+		};
+		A696F83B1EB73DC300937DE1 /* iOSCustomBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A696F83C1EB73DC300937DE1 /* CBConnection.h */,
+				A696F83D1EB73DC300937DE1 /* CBConstant.h */,
+				A696F83E1EB73DC300937DE1 /* CBWKConnection.h */,
+				A696F83F1EB73DC300937DE1 /* PayU_CB_SDK.h */,
+				A696F8401EB73DC300937DE1 /* PayUCBInfo.plist */,
+				A696F8411EB73DC300937DE1 /* PayUCBWebViewResponseDelegate.h */,
+				A696F8421EB73DC300937DE1 /* PUCBAllPaymentOption.xib */,
+				A696F8431EB73DC300937DE1 /* PUCBApproveView.xib */,
+				A696F8441EB73DC300937DE1 /* PUCBBankPageLoading.xib */,
+				A696F8451EB73DC300937DE1 /* PUCBBaseConnection.h */,
+				A696F8461EB73DC300937DE1 /* PUCBConfiguration.h */,
+				A696F8471EB73DC300937DE1 /* PUCBFooterView.xib */,
+				A696F8481EB73DC300937DE1 /* PUCBHeaderView.xib */,
+				A696F8491EB73DC300937DE1 /* PUCBImages.xcassets */,
+				A696F84A1EB73DC300937DE1 /* PUCBLoader.xib */,
+				A696F84B1EB73DC300937DE1 /* PUCBPassowrdWithIncorrectOTPView.xib */,
+				A696F84C1EB73DC300937DE1 /* PUCBPasswordNB.xib */,
+				A696F84D1EB73DC300937DE1 /* PUCBRegenerateOTPView.xib */,
+				A696F84E1EB73DC300937DE1 /* PUCBRegisterOption.xib */,
+				A696F84F1EB73DC300937DE1 /* PUCBUserIdNB.xib */,
+				A696F8501EB73DC300937DE1 /* PUCBWebVC.h */,
+				A696F8511EB73DC300937DE1 /* PUCBWKTest.html */,
+			);
+			path = iOSCustomBrowser;
+			sourceTree = "<group>";
+		};
+		A696F8531EB73DC300937DE1 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8541EB73DC300937DE1 /* libPayU_iOS_CoreSDK.a */,
+				A696F8551EB73DC300937DE1 /* PayU_iOS_CoreSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		A696F8551EB73DC300937DE1 /* PayU_iOS_CoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8561EB73DC300937DE1 /* CoreTelephony.h */,
+				A696F8571EB73DC300937DE1 /* PayU_iOS_CoreSDK.h */,
+				A696F8581EB73DC300937DE1 /* PayUConstants.h */,
+				A696F8591EB73DC300937DE1 /* PayUCreatePostParam.h */,
+				A696F85A1EB73DC300937DE1 /* PayUCreateRequest.h */,
+				A696F85B1EB73DC300937DE1 /* PayUDontUseThisClass.h */,
+				A696F85C1EB73DC300937DE1 /* PayUFileManager.h */,
+				A696F85D1EB73DC300937DE1 /* PayUJSONParser.h */,
+				A696F85E1EB73DC300937DE1 /* PayUModelCashCard.h */,
+				A696F85F1EB73DC300937DE1 /* PayUModelCheckIsDomestic.h */,
+				A696F8601EB73DC300937DE1 /* PayUModelEMI.h */,
+				A696F8611EB73DC300937DE1 /* PayUModelEMIDetails.h */,
+				A696F8621EB73DC300937DE1 /* PayUModelGetTxnInfo.h */,
+				A696F8631EB73DC300937DE1 /* PayUModelHashes.h */,
+				A696F8641EB73DC300937DE1 /* PayUModelNetBanking.h */,
+				A696F8651EB73DC300937DE1 /* PayUModelOfferDetails.h */,
+				A696F8661EB73DC300937DE1 /* PayUModelOfferStatus.h */,
+				A696F8671EB73DC300937DE1 /* PayUModelPaymentParams.h */,
+				A696F8681EB73DC300937DE1 /* PayUModelPaymentRelatedDetail.h */,
+				A696F8691EB73DC300937DE1 /* PayUModelStoredCard.h */,
+				A696F86A1EB73DC300937DE1 /* PayUModelVerifyPayment.h */,
+				A696F86B1EB73DC300937DE1 /* PayUReachability.h */,
+				A696F86C1EB73DC300937DE1 /* PayUSDKInfo.plist */,
+				A696F86D1EB73DC300937DE1 /* PayUSharedDataManager.h */,
+				A696F86E1EB73DC300937DE1 /* PayUUtils.h */,
+				A696F86F1EB73DC300937DE1 /* PayUValidations.h */,
+				A696F8701EB73DC300937DE1 /* PayUWebServiceResponse.h */,
+				A696F8711EB73DC300937DE1 /* PayUWebViewResponse.h */,
+				A696F8721EB73DC300937DE1 /* PayUWSManager.h */,
+			);
+			path = PayU_iOS_CoreSDK;
+			sourceTree = "<group>";
+		};
+		A696F8731EB73DC300937DE1 /* SDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8741EB73DC300937DE1 /* BusinessLayer */,
+				A696F8771EB73DC300937DE1 /* CustomViews */,
+				A696F8801EB73DC300937DE1 /* Frameworks */,
+				A696F8851EB73DC300937DE1 /* Presentation Layer */,
+				A696F89C1EB73DC300937DE1 /* PUUIAssets.xcassets */,
+				A696F89D1EB73DC300937DE1 /* Resources */,
+				A696F8A01EB73DC300937DE1 /* Utility */,
+			);
+			path = SDKUI;
+			sourceTree = "<group>";
+		};
+		A696F8741EB73DC300937DE1 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8751EB73DC300937DE1 /* iOSDefaultActivityIndicator.h */,
+				A696F8761EB73DC300937DE1 /* iOSDefaultActivityIndicator.m */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		A696F8771EB73DC300937DE1 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8781EB73DC300937DE1 /* PUUIEMITopView.h */,
+				A696F8791EB73DC300937DE1 /* PUUIEMITopView.m */,
+				A696F87A1EB73DC300937DE1 /* PUUIEMITopView.xib */,
+				A696F87B1EB73DC300937DE1 /* PUUINBTopView.h */,
+				A696F87C1EB73DC300937DE1 /* PUUINBTopView.m */,
+				A696F87D1EB73DC300937DE1 /* PUUIStoredCardView.h */,
+				A696F87E1EB73DC300937DE1 /* PUUIStoredCardView.m */,
+				A696F87F1EB73DC300937DE1 /* PUUIStoredCardView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A696F8801EB73DC300937DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8811EB73DC300937DE1 /* ThirdParty */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A696F8811EB73DC300937DE1 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8821EB73DC300937DE1 /* iCarousel */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A696F8821EB73DC300937DE1 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8831EB73DC300937DE1 /* iCarousel.h */,
+				A696F8841EB73DC300937DE1 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		A696F8851EB73DC300937DE1 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8861EB73DC300937DE1 /* Base ViewController */,
+				A696F88B1EB73DC300937DE1 /* PUUICardOptionVC.h */,
+				A696F88C1EB73DC300937DE1 /* PUUICardOptionVC.m */,
+				A696F88D1EB73DC300937DE1 /* PUUICCDCVC.h */,
+				A696F88E1EB73DC300937DE1 /* PUUICCDCVC.m */,
+				A696F88F1EB73DC300937DE1 /* PUUINBVC.h */,
+				A696F8901EB73DC300937DE1 /* PUUINBVC.m */,
+				A696F8911EB73DC300937DE1 /* PUUIPaymentOptionVC.h */,
+				A696F8921EB73DC300937DE1 /* PUUIPaymentOptionVC.m */,
+				A696F8931EB73DC300937DE1 /* PUUIPayUMoneyVC.h */,
+				A696F8941EB73DC300937DE1 /* PUUIPayUMoneyVC.m */,
+				A696F8951EB73DC300937DE1 /* PUUIStoredCardCarouselVC.h */,
+				A696F8961EB73DC300937DE1 /* PUUIStoredCardCarouselVC.m */,
+				A696F8971EB73DC300937DE1 /* PUUITabBarTopView.h */,
+				A696F8981EB73DC300937DE1 /* PUUITabBarTopView.m */,
+				A696F8991EB73DC300937DE1 /* PUUITabBarTopView.xib */,
+				A696F89A1EB73DC300937DE1 /* PUUIWebViewVC.h */,
+				A696F89B1EB73DC300937DE1 /* PUUIWebViewVC.m */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		A696F8861EB73DC300937DE1 /* Base ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8871EB73DC300937DE1 /* PUUIBaseVC.h */,
+				A696F8881EB73DC300937DE1 /* PUUIBaseVC.m */,
+				A696F8891EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.h */,
+				A696F88A1EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.m */,
+			);
+			path = "Base ViewController";
+			sourceTree = "<group>";
+		};
+		A696F89D1EB73DC300937DE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A696F89E1EB73DC300937DE1 /* StoryBoard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A696F89E1EB73DC300937DE1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A696F89F1EB73DC300937DE1 /* PUUIMainStoryBoard.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A696F8A01EB73DC300937DE1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8A11EB73DC300937DE1 /* KHTabPagerViewController */,
+				A696F8A61EB73DC300937DE1 /* PUUIConstants.h */,
+				A696F8A71EB73DC300937DE1 /* PUUIConstants.m */,
+				A696F8A81EB73DC300937DE1 /* PUUIImageConstants.h */,
+				A696F8A91EB73DC300937DE1 /* PUUIImageConstants.m */,
+				A696F8AA1EB73DC300937DE1 /* PUUIUtility.h */,
+				A696F8AB1EB73DC300937DE1 /* PUUIUtility.m */,
+				A696F8AC1EB73DC300937DE1 /* Reachability */,
+				A696F8AF1EB73DC300937DE1 /* UIColor+PUUIColor.h */,
+				A696F8B01EB73DC300937DE1 /* UIColor+PUUIColor.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A696F8A11EB73DC300937DE1 /* KHTabPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8A21EB73DC300937DE1 /* KHTabPagerViewController.h */,
+				A696F8A31EB73DC300937DE1 /* KHTabPagerViewController.m */,
+				A696F8A41EB73DC300937DE1 /* KHTabScrollView.h */,
+				A696F8A51EB73DC300937DE1 /* KHTabScrollView.m */,
+			);
+			path = KHTabPagerViewController;
+			sourceTree = "<group>";
+		};
+		A696F8AC1EB73DC300937DE1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8AD1EB73DC300937DE1 /* PUUIReachability.h */,
+				A696F8AE1EB73DC300937DE1 /* PUUIReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A696F8DD1EB73DDB00937DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8DE1EB73DDB00937DE1 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A696F8101EB73C1A00937DE1 /* PayUNonSeamLessIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696F8331EB73C1A00937DE1 /* Build configuration list for PBXNativeTarget "PayUNonSeamLessIntegration" */;
+			buildPhases = (
+				A696F80D1EB73C1A00937DE1 /* Sources */,
+				A696F80E1EB73C1A00937DE1 /* Frameworks */,
+				A696F80F1EB73C1A00937DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayUNonSeamLessIntegration;
+			productName = PayUNonSeamLessIntegration;
+			productReference = A696F8111EB73C1A00937DE1 /* PayUNonSeamLessIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A696F8291EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696F8361EB73C1A00937DE1 /* Build configuration list for PBXNativeTarget "PayUNonSeamLessIntegrationTests" */;
+			buildPhases = (
+				A696F8261EB73C1A00937DE1 /* Sources */,
+				A696F8271EB73C1A00937DE1 /* Frameworks */,
+				A696F8281EB73C1A00937DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A696F82C1EB73C1A00937DE1 /* PBXTargetDependency */,
+			);
+			name = PayUNonSeamLessIntegrationTests;
+			productName = PayUNonSeamLessIntegrationTests;
+			productReference = A696F82A1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A696F8091EB73C1A00937DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pulkitarora;
+				TargetAttributes = {
+					A696F8101EB73C1A00937DE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					A696F8291EB73C1A00937DE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A696F8101EB73C1A00937DE1;
+					};
+				};
+			};
+			buildConfigurationList = A696F80C1EB73C1A00937DE1 /* Build configuration list for PBXProject "PayUNonSeamLessIntegration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A696F8081EB73C1A00937DE1;
+			productRefGroup = A696F8121EB73C1A00937DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A696F8101EB73C1A00937DE1 /* PayUNonSeamLessIntegration */,
+				A696F8291EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A696F80F1EB73C1A00937DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8BB1EB73DC300937DE1 /* PUCBRegenerateOTPView.xib in Resources */,
+				A696F8D41EB73DC300937DE1 /* PUUIAssets.xcassets in Resources */,
+				A696F8B61EB73DC300937DE1 /* PUCBHeaderView.xib in Resources */,
+				A696F8B71EB73DC300937DE1 /* PUCBImages.xcassets in Resources */,
+				A696F8BE1EB73DC300937DE1 /* PUCBWKTest.html in Resources */,
+				A696F8C11EB73DC300937DE1 /* PayUSDKInfo.plist in Resources */,
+				A696F8B41EB73DC300937DE1 /* PUCBBankPageLoading.xib in Resources */,
+				A696F8D21EB73DC300937DE1 /* PUUITabBarTopView.xib in Resources */,
+				A696F8B31EB73DC300937DE1 /* PUCBApproveView.xib in Resources */,
+				A696F8241EB73C1A00937DE1 /* LaunchScreen.storyboard in Resources */,
+				A696F8C71EB73DC300937DE1 /* PUUIStoredCardView.xib in Resources */,
+				A696F8B91EB73DC300937DE1 /* PUCBPassowrdWithIncorrectOTPView.xib in Resources */,
+				A696F8BD1EB73DC300937DE1 /* PUCBUserIdNB.xib in Resources */,
+				A696F8C41EB73DC300937DE1 /* PUUIEMITopView.xib in Resources */,
+				A696F8B21EB73DC300937DE1 /* PUCBAllPaymentOption.xib in Resources */,
+				A696F8211EB73C1A00937DE1 /* Assets.xcassets in Resources */,
+				A696F8B11EB73DC300937DE1 /* PayUCBInfo.plist in Resources */,
+				A696F8BC1EB73DC300937DE1 /* PUCBRegisterOption.xib in Resources */,
+				A696F8BA1EB73DC300937DE1 /* PUCBPasswordNB.xib in Resources */,
+				A696F81F1EB73C1A00937DE1 /* Main.storyboard in Resources */,
+				A696F8B81EB73DC300937DE1 /* PUCBLoader.xib in Resources */,
+				A696F8B51EB73DC300937DE1 /* PUCBFooterView.xib in Resources */,
+				A696F8D51EB73DC300937DE1 /* PUUIMainStoryBoard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8281EB73C1A00937DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A696F80D1EB73C1A00937DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8D71EB73DC300937DE1 /* KHTabScrollView.m in Sources */,
+				A696F8CD1EB73DC300937DE1 /* PUUINBVC.m in Sources */,
+				A696F8CF1EB73DC300937DE1 /* PUUIPayUMoneyVC.m in Sources */,
+				A696F8CB1EB73DC300937DE1 /* PUUICardOptionVC.m in Sources */,
+				A696F81C1EB73C1A00937DE1 /* ViewController.m in Sources */,
+				A696F8C61EB73DC300937DE1 /* PUUIStoredCardView.m in Sources */,
+				A696F8191EB73C1A00937DE1 /* AppDelegate.m in Sources */,
+				A696F8D61EB73DC300937DE1 /* KHTabPagerViewController.m in Sources */,
+				A696F8C31EB73DC300937DE1 /* PUUIEMITopView.m in Sources */,
+				A696F8D31EB73DC300937DE1 /* PUUIWebViewVC.m in Sources */,
+				A696F8C51EB73DC300937DE1 /* PUUINBTopView.m in Sources */,
+				A696F8D11EB73DC300937DE1 /* PUUITabBarTopView.m in Sources */,
+				A696F8CE1EB73DC300937DE1 /* PUUIPaymentOptionVC.m in Sources */,
+				A696F8C81EB73DC300937DE1 /* iCarousel.m in Sources */,
+				A696F8D91EB73DC300937DE1 /* PUUIImageConstants.m in Sources */,
+				A696F8D81EB73DC300937DE1 /* PUUIConstants.m in Sources */,
+				A696F8D01EB73DC300937DE1 /* PUUIStoredCardCarouselVC.m in Sources */,
+				A696F8DC1EB73DC300937DE1 /* UIColor+PUUIColor.m in Sources */,
+				A696F8DB1EB73DC300937DE1 /* PUUIReachability.m in Sources */,
+				A696F8CA1EB73DC300937DE1 /* PUUIWrapperKHTabPagerVC.m in Sources */,
+				A696F8CC1EB73DC300937DE1 /* PUUICCDCVC.m in Sources */,
+				A696F8C91EB73DC300937DE1 /* PUUIBaseVC.m in Sources */,
+				A696F8DA1EB73DC300937DE1 /* PUUIUtility.m in Sources */,
+				A696F8C21EB73DC300937DE1 /* iOSDefaultActivityIndicator.m in Sources */,
+				A696F8161EB73C1A00937DE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8261EB73C1A00937DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F82F1EB73C1A00937DE1 /* PayUNonSeamLessIntegrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A696F82C1EB73C1A00937DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A696F8101EB73C1A00937DE1 /* PayUNonSeamLessIntegration */;
+			targetProxy = A696F82B1EB73C1A00937DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A696F81D1EB73C1A00937DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A696F81E1EB73C1A00937DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A696F8221EB73C1A00937DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A696F8231EB73C1A00937DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A696F8311EB73C1A00937DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A696F8321EB73C1A00937DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A696F8341EB73C1A00937DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayUNonSeamLessIntegration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayUNonSeamLessIntegration/PayU/CB",
+					"$(PROJECT_DIR)/PayUNonSeamLessIntegration/PayU/SDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulkit.PayUNonSeamLessIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A696F8351EB73C1A00937DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayUNonSeamLessIntegration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayUNonSeamLessIntegration/PayU/CB",
+					"$(PROJECT_DIR)/PayUNonSeamLessIntegration/PayU/SDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulkit.PayUNonSeamLessIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A696F8371EB73C1A00937DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayUNonSeamLessIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulkit.PayUNonSeamLessIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUNonSeamLessIntegration.app/PayUNonSeamLessIntegration";
+			};
+			name = Debug;
+		};
+		A696F8381EB73C1A00937DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayUNonSeamLessIntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulkit.PayUNonSeamLessIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUNonSeamLessIntegration.app/PayUNonSeamLessIntegration";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A696F80C1EB73C1A00937DE1 /* Build configuration list for PBXProject "PayUNonSeamLessIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8311EB73C1A00937DE1 /* Debug */,
+				A696F8321EB73C1A00937DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A696F8331EB73C1A00937DE1 /* Build configuration list for PBXNativeTarget "PayUNonSeamLessIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8341EB73C1A00937DE1 /* Debug */,
+				A696F8351EB73C1A00937DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A696F8361EB73C1A00937DE1 /* Build configuration list for PBXNativeTarget "PayUNonSeamLessIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8371EB73C1A00937DE1 /* Debug */,
+				A696F8381EB73C1A00937DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A696F8091EB73C1A00937DE1 /* Project object */;
+}
